@@ -60,5 +60,3 @@ npm run build
 ```
 
 Die Build-Dateien werden im `build`-Verzeichnis abgelegt und können auf jedem statischen Hosting-Service (Netlify, Vercel, GitHub Pages, etc.) bereitgestellt werden.
-
-## Projektstruktur

@@ -14,7 +14,6 @@ import ImpressumPage from './pages/ImpressumPage';
 import DatenschutzPage from './pages/DatenschutzPage';
 
 import './App.css';
-import './assets/placeholders.css';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
