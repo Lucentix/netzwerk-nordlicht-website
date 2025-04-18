@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2E3440;
+  color: #E5E9F0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.btn {
+  @apply px-4 py-2 rounded font-medium transition-all duration-200 ease-in-out;
+}
+
+.btn-primary {
+  @apply bg-nord-blue text-nord-light hover:bg-opacity-90;
+}
+
+.btn-secondary {
+  @apply bg-nord-accent text-nord-dark hover:bg-opacity-90;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.section {
+  @apply py-12 md:py-16 lg:py-20;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2E3440;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #88C0D0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5E81AC;
+}
